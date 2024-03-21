@@ -993,7 +993,10 @@ section {
 }
 
 .specials .nav-tabs {
-  border: 0;
+  border: 20;
+  border-color: #18d26e ;
+  background-color: #62679a;
+  padding-left: 0;
 }
 
 .specials .nav-link {
@@ -1023,6 +1026,7 @@ section {
 
 .specials .tab-pane.active {
   animation: fadeIn 0.5s ease-out;
+  margin-left: 400px;
 }
 
 .specials .details h3 {
